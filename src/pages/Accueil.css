@@ -1,3 +1,4 @@
+
 .carousel img {
     height: 400px;
     object-fit: cover;
@@ -16,4 +17,46 @@
   .alert {
     font-size: 1.2rem;
   }
-  
+ /* src/Accueil.css */
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(85, 72, 72, 0.979)), url('./images/flower5.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  margin-bottom: 2rem;
+}
+
+.feature-card {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Animation classes */
+.animate__animated {
+  animation-duration: 1s;
+}
+
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+.animate__delay-1s {
+  animation-delay: 1s;
+}
+
+.animate__delay-2s {
+  animation-delay: 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

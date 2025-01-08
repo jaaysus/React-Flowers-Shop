@@ -37,6 +37,9 @@ const Header = ({ isAuthenticated }) => {
             <li className="nav-item">
               <Link className="nav-link text-dark" to="/search">Search</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link text-dark" to="/panier">ajouter au Panier</Link>
+            </li>
           </ul>
         </div>
       </div>
