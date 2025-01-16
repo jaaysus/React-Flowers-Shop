@@ -1,95 +1,36 @@
-.navbar {
-    background-color: #cc70e7;
-    padding: 15px 30px;
-  }
-  
-  .navbar-brand {
-    font-family: 'Arial', sans-serif;
-    color: #ac0ef5;
-    font-size: 1.5rem;
-  }
-  
-  .navbar-menu {
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar-nav {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .navbar-nav .nav-link {
-    font-weight: 500;
-    color: #a51414;
-  }
-  
-  .navbar-nav .nav-link:hover {
-    color: #d41850;
-  }
-  
-  .navbar-toggler {
-    display: none; /* Cache le bouton de menu sur les grands écrans */
-    border: none;
-    background: transparent;
-    font-size: 1.5rem;
-  }
-  
-  .navbar-toggler-icon {
-    width: 30px;
-    height: 3px;
-    background-color: #333;
-    display: block;
-    position: relative;
-  }
-  
-  .navbar-toggler-icon::before,
-  .navbar-toggler-icon::after {
-    content: '';
-    position: absolute;
-    width: 30px;
-    height: 3px;
-    background-color: #333;
-    display: block;
-    left: 0;
-  }
-  
-  .navbar-toggler-icon::before {
-    top: -8px;
-  }
-  
-  .navbar-toggler-icon::after {
-    top: 8px;
-  }
-  
-  /* Styles pour les petits écrans */
-  @media (max-width: 768px) {
-    .navbar-menu {
-      display: none;
-      width: 100%;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 15px;
-    }
-  
-    .navbar-menu.visible {
-      display: flex;
-    }
-  
-    .navbar-nav {
-      flex-direction: column;
-      width: 100%;
-      text-align: center;
-    }
-  
-    .navbar-nav .nav-link {
-      padding: 12px 0;
-      width: 100%;
-    }
-  
-    .navbar-toggler {
-      display: block; /* Affiche le bouton de menu sur les petits écrans */
-    }
-  }
-  
-  
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease;
+  color: #A87676;
+
+}
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+.nav-link {
+  color: #E6A4B4;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s ease;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-link:hover {
+  border-left: 1px solid #e7a44b;
+  color: #8d5f6a;
+}
+.btn-light {
+  background-color: #f8f9fa;
+  color: #8d5f6a;
+  border: none;
+  transition: all 0.3s ease;
+}
+.btn-light:hover {
+  background-color: #A888B5;
+  color: #fff;
+}
+.header{
+  background-color: #f8f8f800;
+  padding: 20px;
+  text-align: center;
+}
