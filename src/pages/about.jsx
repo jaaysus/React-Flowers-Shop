@@ -67,7 +67,7 @@ const About = () => {
           <div className="card border-0 shadow-lg">
             <img src="images/bgf2.avif" className="card-img-top" style={{width: '200px',height: '200px',borderRadius: '50%'}} alt="Pierre" />
             <div className="card-body text-center">
-              <h3 className="h5 mb-2">Aissa EL QUADAOUI</h3>
+              <h3 className="h5 mb-2">Issa El Kaddaoui</h3>
               <p className="text-muted">Designer Floral</p>
             </div>
           </div>
